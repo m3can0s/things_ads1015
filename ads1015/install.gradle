@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.napworkshop.library'
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.napworkshop.library'
+                artifactId 'ads1015'
+
+                name 'I2C_ADS1015'
+                description 'ic2 interface to use ads1015 analog to digital converter' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/m3can0s/things_ads1015'
+
+                licenses {
+                    license {
+                        name 'The MIT License (MIT)'
+                        url 'https://opensource.org/licenses/MIT'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'nataniel'
+                        name 'Nataniel P-Montpetit'
+                        email 'nataniel@napworkshop.com'
+                    }
+                }
+                scm {
+                    connection 'https://github.com/m3can0s/things_ads1015.git'
+                    developerConnection 'https://github.com/m3can0s/things_ads1015.git'
+                    url 'https://github.com/m3can0s/things_ads1015'
+
+                }
+            }
+        }
+    }
+}

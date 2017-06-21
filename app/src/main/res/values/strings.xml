@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">I2C_ADS1015</string>
+    <string name="analog_value">%1$s = %2$f</string>
+    <string name="title">I2C example for ADS1015</string>
+</resources>

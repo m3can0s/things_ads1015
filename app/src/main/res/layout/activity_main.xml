@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.napworkshop.i2c_ads1015.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/title"/>
+
+    <TextView
+        android:id="@+id/a0_value"
+        style="@style/Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:text="@string/analog_value"/>
+
+    <TextView
+        android:id="@+id/a1_value"
+        style="@style/Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/a0_value"
+        android:text="@string/analog_value"/>
+
+    <TextView
+        android:id="@+id/a2_value"
+        style="@style/Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/a1_value"
+        android:text="@string/analog_value"/>
+
+    <TextView
+        android:id="@+id/a3_value"
+        style="@style/Value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/a2_value"
+        android:text="@string/analog_value"/>
+
+</android.support.constraint.ConstraintLayout>
